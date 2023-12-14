@@ -45,7 +45,7 @@ Double click on `WinTAK-4.10.0.170-civ-sdk-installer-x64.exe`
 
 You may get a security warning. Confirm to start the setup wizard.
 
-[<img src="img/1.png" width="400"/>](img/1.png)
+[<img src="img/1.png" width="600"/>](img/1.png)
 
 Next you will see the Welcom wizard form.
 
