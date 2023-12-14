@@ -403,7 +403,9 @@ AssemblyInfo snippet
 ```
 
 
+For the WinTAK Simple Usage Plugin go to:
 
+https://github.com/Cale-Torino/WinTAK_Simple_Usage_Plugin
 
-
+A simple plugin showing a few of the basic components which can be utilized when you develop a plugin for WinTAK and is a little more complicated.
 
