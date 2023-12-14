@@ -1,6 +1,6 @@
 # WinTAK SDK Install
 
-[<img src="img/Plugin.gif" width="800"/>](img/Plugin.gif)
+[<img src="img/18.png" width="800"/>](img/18.png)
 
 Here I demonstrate a step by step process to get a basic WinTAK development environment setup.
 
