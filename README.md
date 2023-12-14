@@ -51,13 +51,13 @@ Next you will see the Welcom wizard form.
 
 Click next to continue.
 
-[<img src="img/2.png" width="400"/>](img/2.png)
+[<img src="img/2.png" width="600"/>](img/2.png)
 
 You will see the `Path\to\install\folder` displayed.
 
 Leave as default or choose a path you will remember for later.
 
-[<img src="img/3.png" width="400"/>](img/3.png)
+[<img src="img/3.png" width="600"/>](img/3.png)
 
 The optional plugins included in the WinTAK SDK binary will now be visable.
 
@@ -67,7 +67,7 @@ Now they seem to work well but that may change in future.
 
 In this case I DO NOT select any since this is a DEV environmet, and click next.
 
-[<img src="img/4.png" width="400"/>](img/4.png)
+[<img src="img/4.png" width="600"/>](img/4.png)
 
 Finally you will see the ready to install page.
 
@@ -85,13 +85,13 @@ After making sure Visual Studio 2022 is up to date, start VS2022
 
 Click on **Create a new project**
 
-[<img src="img/6.png" width="400"/>](img/6.png)
+[<img src="img/6.png" width="600"/>](img/6.png)
 
 Search for **WPF User Control Library (.Net Framework)**
 
 Make sure to select the .Net Framework version as WinTAK uses this it.
 
-[<img src="img/7.png" width="400"/>](img/7.png)
+[<img src="img/7.png" width="600"/>](img/7.png)
 
 Now that you have selected the correct project give your project plugin a **name**.
 
@@ -101,14 +101,14 @@ The .Net Framework will change in future as the SDK is updated.
 
 Click create and your plugin project will load up.
 
-[<img src="img/8.png" width="400"/>](img/8.png)
+[<img src="img/8.png" width="600"/>](img/8.png)
 
 
 The first thing we need to do now is add the WinTAK NuGet Package Dependencies.
 
 Right click on your project name and go to *NuGet Package Manager* > *Manage NuGet Packages for Solution*.
 
-[<img src="img/9.png" width="400"/>](img/9.png)
+[<img src="img/9.png" width="600"/>](img/9.png)
 
 You will now see the NuGet Package Manager Dash.
 
@@ -123,7 +123,7 @@ Rename *Name* to WinTAK and click on ... to find the offline NuGet Packages.
 In my case they are located in `C:\Program Files\WinTAK\NuGet`.
 
 
-[<img src="img/10.png" width="400"/>](img/10.png)
+[<img src="img/10.png" width="600"/>](img/10.png)
 
 Since the packages are added you can now click on WinTAK in the dropdown box next to the Package Source label.
 
@@ -131,7 +131,7 @@ You will now see the WinTAK NuGet Packages listed.
 
 You only need to install `WinTak-Dependencies` and `Prism.Mef` for this example.
 
-[<img src="img/11.png" width="400"/>](img/11.png)
+[<img src="img/11.png" width="600"/>](img/11.png)
 
 With the NuGet Packages installed we still need to add references to some libs.
 
@@ -147,11 +147,11 @@ Now select the `TAK.Engine.dll` lib and add it.
 
 In my case the path was  `C:\Program Files\WinTAK\TAK.Engine.dll`
 
-[<img src="img/12.png" width="400"/>](img/12.png)
+[<img src="img/12.png" width="600"/>](img/12.png)
 
-[<img src="img/13.png" width="400"/>](img/13.png)
+[<img src="img/13.png" width="600"/>](img/13.png)
 
-[<img src="img/14.png" width="400"/>](img/14.png)
+[<img src="img/14.png" width="600"/>](img/14.png)
 
 Since whe finished The initial setup we can now continue to build events
 
@@ -159,7 +159,7 @@ Right click on your project name and select *properties*
 
 Click on *Build* and under the *Platform target* dropdown box select `x64`
 
-[<img src="img/15.png" width="400"/>](img/15.png)
+[<img src="img/15.png" width="600"/>](img/15.png)
 
 Next click on Build Events.
 
@@ -171,7 +171,7 @@ xcopy "$(TargetDir)$(TargetName).pdb" "%appdata%\wintak\plugins\$(TargetName)\" 
 
 This automatically copies yout plugin files whenever you rebuild your plugin
 
-[<img src="img/16.png" width="400"/>](img/16.png)
+[<img src="img/16.png" width="600"/>](img/16.png)
 
 
 Click on Debug
@@ -188,7 +188,7 @@ Select the directory where the WinTAK plugins are is installed.
 
 In my case it was located at `C:\Program Files\WinTAK\Plugins\`
 
-[<img src="img/17.png" width="400"/>](img/17.png)
+[<img src="img/17.png" width="600"/>](img/17.png)
 
 
 
