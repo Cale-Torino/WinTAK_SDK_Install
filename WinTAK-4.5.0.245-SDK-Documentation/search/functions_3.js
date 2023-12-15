@@ -1,0 +1,10 @@
+var searchData=
+[
+  ['decodeanddraw_5870',['DecodeAndDraw',['../d6/d92/class_spyglass_1_1_graphics_1_1_d3_d_video_renderer.html#a8cd1ae6d02754e5b76907d7b9e5772b8',1,'Spyglass::Graphics::D3DVideoRenderer']]],
+  ['delete_5871',['Delete',['../de/dfc/interface_win_tak_1_1_cursor_on_target_1_1_services_1_1_i_cot_persistor.html#ab9006b88fc8f50428623ea4277c07ae3',1,'WinTak.CursorOnTarget.Services.ICotPersistor.Delete(XmlNode cotMessage)'],['../de/dfc/interface_win_tak_1_1_cursor_on_target_1_1_services_1_1_i_cot_persistor.html#ab0d146e2eb7924e5d8b133cab5225996',1,'WinTak.CursorOnTarget.Services.ICotPersistor.Delete(CotEvent cotMessage)'],['../d9/d7f/interface_spyglass_1_1_graphics_1_1_i_renderer_texture_ops.html#a8ccaf347cbf1129599e3dc351b2ebf05',1,'Spyglass::Graphics::IRendererTextureOps::Delete()']]],
+  ['deletebuffers_5872',['DeleteBuffers',['../d5/dcf/class_win_tak_1_1_cursor_on_target_1_1_placement_1_1_model_1_1_open_g_l_1_1_g_l_instanced_renderable.html#ad3ad92cee65e8f11f588b2869df2b056',1,'WinTak::CursorOnTarget::Placement::Model::OpenGL::GLInstancedRenderable']]],
+  ['disable_5873',['Disable',['../d9/d7f/interface_spyglass_1_1_graphics_1_1_i_renderer_texture_ops.html#a9fbbe1fb2b0543a229bc29824de9e018',1,'Spyglass::Graphics::IRendererTextureOps']]],
+  ['dispose_5874',['Dispose',['../d1/dbc/class_win_tak_1_1_common_1_1_cursor_reverter.html#a9640d45aaceeb38ce4b1e46cb49e5967',1,'WinTak::Common::CursorReverter']]],
+  ['drawinstanced_5875',['DrawInstanced',['../de/d57/class_win_tak_1_1_cursor_on_target_1_1_placement_1_1_model_1_1_open_g_l_1_1_g_l_instanced_mesh.html#a665d4a09486fe8951a50416d14a69d12',1,'WinTak.CursorOnTarget.Placement.Model.OpenGL.GLInstancedMesh.DrawInstanced()'],['../d5/dcf/class_win_tak_1_1_cursor_on_target_1_1_placement_1_1_model_1_1_open_g_l_1_1_g_l_instanced_renderable.html#a822f0105af8f96a5a722e8baede4359e',1,'WinTak.CursorOnTarget.Placement.Model.OpenGL.GLInstancedRenderable.DrawInstanced()']]],
+  ['drawprimitive_5876',['DrawPrimitive',['../d9/d58/interface_spyglass_1_1_graphics_1_1_i_renderer.html#a3ecb1d97f8b246811be100e123473ac9',1,'Spyglass::Graphics::IRenderer']]]
+];
