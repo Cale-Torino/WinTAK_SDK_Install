@@ -4,6 +4,17 @@
 
 Here I demonstrate a step by step process to get a basic WinTAK development environment setup.
 
+### Index
+
+1. Prerequisites
+2. Other
+3. Installing WinTAK SDK Binary
+4. Setting Up Visual Studio 2022
+5. Code Snippets
+6. Extra
+
+---
+
 ### Prerequisites
 - Visual Studio 2022 installed
 - At least .NetFramework 4.8.0 installed
@@ -33,11 +44,7 @@ My test laptop basic specs are
 - Windows 10 Home Single Language
 - 1080p screen
 
-# STEPS
-
 ## Installing WinTAK SDK Binary
-
-### Step 1
 
 Install the SDK as an admin user
 
@@ -75,13 +82,11 @@ Click install and the SDK will install.
 
 Wait until it's finished.
 
-Now double click the WinTAK icon on your desktop to check that the SDK loads up
+Now double click the WinTAK icon on your desktop to check that the SDK loads up.
 
 ## Setting Up Visual Studio 2022
 
-### Step 2
-
-After making sure Visual Studio 2022 is up to date, start VS2022
+After making sure Visual Studio 2022 is up to date, start VS2022.
 
 Click on **Create a new project**
 
@@ -139,7 +144,7 @@ Right click on your project name and go to *Add* > *Reference*.
 
 Click on *Assemblies* and make sure `System.ComponentModel.Composition` has a check mark.
 
-Now click on browse then click on the button *Browse*
+Now click on browse then click on the button *Browse*.
 
 Go to the folder where you installed WinTAK.
 
@@ -153,11 +158,11 @@ In my case the path was  `C:\Program Files\WinTAK\TAK.Engine.dll`
 
 [<img src="img/14.png" width="600"/>](img/14.png)
 
-Since whe finished The initial setup we can now continue to build events
+Since whe finished The initial setup we can now continue to build events.
 
-Right click on your project name and select *properties*
+Right click on your project name and select *properties*.
 
-Click on *Build* and under the *Platform target* dropdown box select `x64`
+Click on *Build* and under the *Platform target* dropdown box select `x64`.
 
 [<img src="img/15.png" width="600"/>](img/15.png)
 
@@ -169,7 +174,7 @@ xcopy "$(TargetDir)$(TargetName).dll" "%appdata%\wintak\plugins\$(TargetName)\" 
 xcopy "$(TargetDir)$(TargetName).pdb" "%appdata%\wintak\plugins\$(TargetName)\" /y
 ```
 
-This automatically copies yout plugin files whenever you rebuild your plugin
+This automatically copies yout plugin files whenever you rebuild your plugin.
 
 [<img src="img/16.png" width="600"/>](img/16.png)
 
@@ -190,14 +195,13 @@ In my case it was located at `C:\Program Files\WinTAK\Plugins\`
 
 [<img src="img/17.png" width="600"/>](img/17.png)
 
-
-
 Congratulations we have set up a basic Dev environment for WinTAK!!!
 
+## Code Snippets
 
-Now We can start adding code
+Now We can start adding code.
 
-Below I have made some easy to add copy paste snippets
+Below I have made some easy to add copy paste snippets.
 
 Button snippet
 ```C#
@@ -402,6 +406,7 @@ AssemblyInfo snippet
 [assembly: WinTak.Framework.PluginName("WinTAK_Example_WpfControlLibrary1")]
 ```
 
+## Extra
 
 For the WinTAK Simple Usage Plugin go to:
 
